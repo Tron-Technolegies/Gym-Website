@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+.blue-text {
+  color: #1d70fd;
+}
+
+.feature-card-bg {
+  background-color: #0d0d0f;
+}
+
+.gradient-color {
+  background: linear-gradient(90deg, rgba(29, 112, 253, 1) 0%, rgba(17, 67, 151, 1) 100%);
+}
+
+body{
+    background:#020617;
+}
+
+.glass{
+    background:rgba(255,255,255,.05);
+    backdrop-filter:blur(24px);
+    -webkit-backdrop-filter:blur(24px);
+    border:1px solid rgba(255,255,255,.08);
+}
