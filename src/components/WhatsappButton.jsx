@@ -1,5 +1,5 @@
 import React from "react";
-import { MessageCircle } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function WhatsappButton() {
   // Replace this with your GymX WhatsApp number.
@@ -18,12 +18,12 @@ export default function WhatsappButton() {
       rel="noopener noreferrer"
       aria-label="Chat with GymX on WhatsApp"
       title="Chat with GymX"
-      className="fixed bottom-6 right-6 z-[999] flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg transition-transform duration-300 hover:scale-110 hover:shadow-[0_0_25px_rgba(37,211,102,0.5)] sm:bottom-8 sm:right-8"
+      className="fixed bottom-6 right-6 z-[999] flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white hover:scale-110  sm:bottom-8 sm:right-8"
       style={{
         animation: "whatsapp-bounce 1.8s ease-in-out infinite",
       }}
     >
-      <MessageCircle size={30} strokeWidth={2.5} />
+      <FaWhatsapp size={32} strokeWidth={2.5} />
 
       <style>{`
         @keyframes whatsapp-bounce {
