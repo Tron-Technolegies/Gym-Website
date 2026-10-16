@@ -8,6 +8,8 @@ import FAQ from "../components/FAQ";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import ProductWalkthrough from "../components/ProductWalkthrough";
+import WhatsAppButton from "../components/WhatsappButton";
+import WhatsappButton from "../components/WhatsappButton";
 
 export default function Home() {
   return (
@@ -34,6 +36,7 @@ export default function Home() {
       </div>
 
       <Footer />
+      <WhatsappButton />
     </main>
   );
 }
