@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="mx-auto grid max-w-[1120px] w-full grid-cols-2 gap-x-6 gap-y-10 md:grid-cols-4 px-4">
         <div className="col-span-2 md:col-span-1 flex flex-col gap-5 md:gap-5 md:pr-8">
           <a href="/" aria-label="GymX home" className="inline-flex items-center">
-            <img src="/gymx.png" alt="GymX Logo" className="h-12 w-auto object-contain" />
+            <img src="/tronfit.png" alt="GymX Logo" className="h-10 w-auto object-contain" />
           </a>
           <p className="text-[13px] leading-relaxed text-gray-400">
             Run Your Entire Gym. Memberships, Payments, Reminders — All In One App.
@@ -82,7 +82,7 @@ export default function Footer() {
       </div>
 
       <div className="mx-auto mt-16 max-w-[1120px] w-full border-t border-gray-800/60 px-4 pt-6">
-        <p className="text-[12px] text-gray-500">© GymX 2026. All right reserved</p>
+        <p className="text-[12px] text-gray-500">© Tronfit 2026. All right reserved</p>
       </div>
     </footer>
   );

@@ -38,7 +38,7 @@ export default function Navbar() {
       <header className="relative flex items-center justify-between md:grid md:grid-cols-[1fr_auto_1fr] md:gap-4 w-full">
         {/* Brand Logo */}
         <a className="inline-flex items-center" href="/" aria-label="Gym X home">
-          <img src="/gymx.png" alt="Gym X Logo" className="h-10 md:h-16 w-auto object-contain " />
+          <img src="tronfit.png" alt="Gym X Logo" className="h-10 md:h-18 w-auto object-contain " />
         </a>
 
         {/* Desktop Glass Navigation */}
